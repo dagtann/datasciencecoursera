@@ -1,0 +1,34 @@
+## Introduction to GIT
+    git init ... initialize local git repo
+    git remote add origin [REPO] ... point local repo to GitHub
+    clone [REPO] ... clone to current working directory
+
+__Basic GitHub commands__
+
+1. [add] new files to index 
+2. [commit] changes to local repo
+3. [push] new contents to remote repository
+
+<code>
+    git add . ... add all new files to index
+
+    git add -u ... update tracking for changed names or deletions
+    git add -A ... do both of the above
+
+    git commit -m 'message' ... stage for local repo, description
+    git push ... send changes to remote repo
+</code>
+
+__Branching__
+
+<code>
+    git checkout -b BRANCHNAME ... create a branch from a repo
+    git branch ... show your active branch
+    git checkout BRANCHNAME ... switch your active branch to BRANCHNAME
+</code>
+
+__Pull requests__
+
+Once you pushed changes to your branch of the repo, create a [pull]
+request to merge your changes into another repo. The request must be
+completed on the website.
